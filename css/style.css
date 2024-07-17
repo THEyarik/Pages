@@ -136,7 +136,7 @@ body {
     color: #1B3764;
     min-width: 150px;
 }
-.hamburger__menu__icon{
+.hamburger__menu{
     display: none;
 }
 .header__mobile{
@@ -180,7 +180,7 @@ body {
     .menu__row {
         display: none;
     }
-    .hamburger__menu__icon{
+    .hamburger__menu{
         display: block;
     }
     .header__container__item:nth-child(2){

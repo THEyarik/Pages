@@ -19,16 +19,7 @@ h2 {
     font-weight: 400;
 }
 
-@media (max-width: 576px) {
-    h2 {
-        font-size: 30px;
-        font-weight: 400;
-    }
 
-    section {
-        padding: 40px 0 !important;
-    }
-}
 
 body {
     font-family: "Inter", sans-serif;
@@ -45,7 +36,20 @@ body {
     height: 3px;
     background: #FFCA42;
 }
+@media (max-width: 576px) {
+    .main__title__box{
+        align-items: center;
+    }
+    h2 {
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+    }
 
+    section {
+        padding: 40px 0 !important;
+    }
+}
 .wrapper {
     width: 100%;
     overflow: hidden;
